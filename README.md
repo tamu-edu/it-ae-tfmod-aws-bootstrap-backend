@@ -1,6 +1,6 @@
-# vpasc-vpmc-terraform-module-aws-bootstrap-backend
+# it-ae-tfmod-aws-bootstrap-backend
 
-Terraform module for creating AWS CloudFront + Lambda@Edge static sites
+Terraform module for creating bootstrapping a terraform project (S3 + DynamoDB)
 
 ## Usage
 
@@ -8,7 +8,7 @@ Example usage:
 
 ```hcl
 module "aws_bootstrap_backend" {
-  source = "https://github.com/Marketing-and-Communications/vpasc-vpmc-terraform-module-aws-bootstrap-backend?ref=v1.0.0"
+  source = "https://github.com/Marketing-and-Communications/vpasc-vpmc-terraform-module-aws-bootstrap-backend?ref=v1.0"
 
   aws_profile_name      = "aws_profile_for_authentication"
   s3_bucket_name        = "some-project-name-tf"
