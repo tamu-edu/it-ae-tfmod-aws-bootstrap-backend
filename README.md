@@ -1,6 +1,6 @@
 # it-ae-tfmod-aws-bootstrap-backend
 
-Terraform module for creating bootstrapping a terraform project (S3 + DynamoDB)
+Terraform module for creating a terraform project backend in AWS (S3 + DynamoDB)
 
 ## Usage
 
