@@ -8,7 +8,7 @@ Example usage:
 
 ```hcl
 module "aws_bootstrap_backend" {
-  source = "https://github.com/Marketing-and-Communications/vpasc-vpmc-terraform-module-aws-bootstrap-backend?ref=v1.0"
+  source = "https://github.com/tamu-edu/it-ae-tfmod-aws-bootstrap-backend?ref=v1.0"
 
   aws_profile_name      = "aws_profile_for_authentication"
   s3_bucket_name        = "some-project-name-tf"
